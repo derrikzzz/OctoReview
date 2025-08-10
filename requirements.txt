@@ -1,0 +1,6 @@
+langchain==0.3.19 # This is the main langchain package
+langchain-community==0.3.18 # This package allow us to use the DuckDuckGo search
+langchain-openai==0.3.6 # This package allow langchain to use the OpenAI models
+requests==2.32.3 # This package is used to call the API, for this case Github API
+python-dotenv==1.0.1 # This package is used to load the env variable
+duckduckgo-search==6.3.5 # Needed by DuckDuckGoSearchResults tool
